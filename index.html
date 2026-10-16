@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor de código binário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tradutor de código binário</h1>
+
+    <section>
+        <h2>Texto para binário</h2>
+        <textarea id="texto" placeholder="Digite um texto..."></textarea>
+        <button onclick="textoParaBinario()">Converter</button>
+        <button onclick="limparTexto()">Limpar</button>
+        <p>Resultado:</p>
+        <textarea id="resultadoBinario" readonly></textarea>
+    </section>
+
+    <section>
+        <h2>Binário para texto</h2>
+        <textarea id="binario" placeholder="Digite o código binário..."></textarea>
+        <button onclick="binarioParaTexto()">Converter</button>
+        <button onclick="limparBinario()">Limpar</button>
+        <p>Resultado:</p>
+        <textarea id="resultadoTexto" readonly></textarea>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
