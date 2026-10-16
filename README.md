@@ -33,4 +33,4 @@ A ideia é oferecer para o usuário um tradutor que possa traduzir de binario pa
    cd trabalhofinaldeicc
    ```
 
-3. Depois é só abrir o arquivo `index.html` em um navegador para testar.
+3. Agora é só abrir o arquivo `index.html` em um navegador para testar.
